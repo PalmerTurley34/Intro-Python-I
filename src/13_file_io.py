@@ -22,3 +22,9 @@ file.close()
 
 # YOUR CODE HERE
 file = open("src/bar.txt", "w")
+file.write('three lines \nof \narbitraty content')
+file.close()
+
+file = open('src/bar.txt')
+print(file.read())
+file.close()
